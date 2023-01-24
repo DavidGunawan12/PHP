@@ -3,7 +3,7 @@
 <head>
     <title>Tugas</title>
     <style>
-        .f {
+        .gege {
             width: 100px;
             background-color: crimson;
             float: left;
@@ -13,7 +13,7 @@
             justify-content: center;
         }
 
-        .ff {
+        .gle {
             width: 100px;
             background-color: orange;
             float: left;
@@ -42,7 +42,7 @@
         $i < count($hari);
         $i++
     ) {
-        echo  '<div class="f">' . $hari[$i] . '</div>';
+        echo  '<div class="gege">' . $hari[$i] . '</div>';
         echo '<div class="clear"></div>';
     }
     echo "<h5>Looping dengan <br>
@@ -51,8 +51,8 @@
 
 
     // !!FOREACH!!
-    foreach ($hari as $h) {
-        echo '<div class="ff">' . $h . '</div>';
+    foreach ($hari as $re) {
+        echo '<div class="gle">' . $re . '</div>';
         echo '<div class="clear"></div>';
     }
     echo "<h5>Looping dengan <br>
